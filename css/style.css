@@ -1,5 +1,4 @@
 .btn {
-  display: inline-block;
   background-color: #3c3c3c;
   color: #ffffff;
   font-size: 16px;
@@ -21,7 +20,7 @@
   font-weight: normal;
 }
 @font-face {
-  font-family: "Lato";
+  font-family: "Lato";mmm
   src: url("../fonts/Lato-Bold.ttf") format("truetype");
   font-style: normal;
   font-weight: bold;
@@ -31,7 +30,7 @@
   src: url("../fonts/Lato-Light.ttf") format("truetype");
   font-style: normal;
   font-weight: 300;
-}
+}mmm
 
 /* General settings */
 * {
@@ -41,7 +40,7 @@ body {
   font-family: Lato, Arial, sans-serif;
   margin: 0;
   padding: 0;
-}
+}mmm
 .wrapper {
   max-width: 900px;
   margin: 0 auto;
@@ -121,9 +120,11 @@ body {
   font-size: 16px;
   line-height: 24px;
   font-weight: 300;
-  margin: 0;
+  margin: 0;mmm
   margin-bottom: 25px;
 }
+
+/* Services  */
 .services {
   background: url("../images/services-bg.jpg") no-repeat center;
   -webkit-background-size: cover;
@@ -154,6 +155,8 @@ body {
 .services .wrapper_bordered .h2:after {
   right: -242px;
 }
+
+/* What */
 .what .section-content {
   margin-top: 0;
   margin-bottom: 90px;
@@ -176,6 +179,8 @@ body {
   font-size: 14px;
   line-height: 26px;
 }
+
+/* Portfolio */
 .portfolio .portfolio__item {
   width: 33.33%;
   min-width: 320px;
@@ -226,51 +231,6 @@ body {
 .contact p {
   margin-bottom: 40px;
 }
-.footer {
-  padding-bottom: 60px;
-}
-.footer .footer__logo {
-  display: inline-block;
-}
-.footer .footer__logo img {
-  width: 35px;
-  height: 37px;
-}
-.footer .footer__content {
-  display: inline-block;
-  font-size: 16px;
-  line-height: 37px;
-  vertical-align: top;
-  margin-left: 35px;
-}
-@media only screen and (max-width: 992px) {
-  .wrapper {
-    max-width: 720px;
-  }
-  .header .header__logo {
-    padding-top: 12%;
-  }
-  .header .header__title {
-    font-size: 46px;
-  }
-  .services .wrapper_bordered .h2:after,
-  .services .wrapper_bordered .h2:before {
-    width: 152px;
-  }
-  .services .wrapper_bordered .h2:before {
-    left: -152px;
-  }
-  .services .wrapper_bordered .h2:after {
-    right: -152px;
-  }
-  .section-content {
-    margin: 50px 125px 40px 125px;
-  }
-  .portfolio .portfolio__item {
-    width: 50%;
-  }
-  .portfolio .portfolio__item:nth-child(n) {
-    padding: 0 10px;
   }
   .portfolio .portfolio__item:nth-child(2n+1) {
     padding-left: 0;
